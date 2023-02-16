@@ -7,7 +7,7 @@ const cors = require("cors");
 const translate = require("translate-google");
 const sqlite3 = require("sqlite3").verbose();
 
-const sequelize = require("./database/database");
+const sequelize = require("./Database/database");
 let db = new sqlite3.Database("./Database/dict_hh.sqlite");
 let sql1 = `SELECT * FROM va`;
 let sql2 = `SELECT * FROM av`;
