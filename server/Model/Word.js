@@ -1,5 +1,5 @@
 const { Model, DataTypes } = require("sequelize");
-const sequelize = require("../database/database");
+const sequelize = require("../Database/database");
 
 class Word extends Model {}
 Word.init(
